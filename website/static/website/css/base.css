@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'New Tegomin', serif;
+}
+
+/*CSS GRID NAMES*/
+header {grid-area: header;}
+nav {grid-area: menu;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+/*PC*/
+@media (min-width: 601px) {
+    body {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-areas:
+        'header header header'
+        'menu   menu   menu'
+        'main   main   main'
+        'footer footer footer';
+    }
+}
+
+/*PHONE E TABLET*/
+@media (max-width: 600px) {
+
+}
+
