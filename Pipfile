@@ -8,6 +8,7 @@ django = "*"
 environs = {version = "==8.0.0", extras = ["django"]}
 whitenoise = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
