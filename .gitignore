@@ -2,5 +2,5 @@
 .env
 __pycache__/
 db.sqlite3
-z1
-z2
+z1.pdf
+z2.pdf
