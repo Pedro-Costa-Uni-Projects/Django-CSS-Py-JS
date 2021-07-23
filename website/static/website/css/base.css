@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'New Tegomin', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*CSS GRID NAMES*/
@@ -27,3 +27,15 @@ footer {grid-area: footer;}
 
 }
 
+.header {
+    text-align: center;
+    background: lightskyblue;
+    color: white;
+    font-size: 30px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
