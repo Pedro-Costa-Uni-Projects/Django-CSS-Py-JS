@@ -29,7 +29,7 @@ footer {grid-area: footer;}
 
 .header {
     text-align: center;
-    background: lightskyblue;
+    background: gray;
     color: white;
     font-size: 30px;
 }
@@ -61,7 +61,7 @@ footer {grid-area: footer;}
 .face {
     width: 200px;
     height: 200px;
-    background: skyblue;
+    background: grey;
     border: 2px solid black;
     position: absolute;
     opacity: 0.5;
@@ -97,5 +97,5 @@ footer {grid-area: footer;}
 
 @keyframes turn {
     from { transform: rotate3d(0, 0, 0, 0); }
-    to { transform: rotate3d(1, 1, 1, 360deg); }
+    to { transform: rotate3d(1, 1, 0, 360deg); }
 }
